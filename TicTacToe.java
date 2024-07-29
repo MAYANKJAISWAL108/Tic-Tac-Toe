@@ -12,8 +12,10 @@ class Main {
     char player = 'X';
     boolean gameOver = false;
     Scanner scanner = new Scanner(System.in);
-    int moveCount = 0; // This is to check if all the cell is filled
-
+    
+    // This is to check if all the cell is filled
+    int moveCount = 0; 
+    
     while (!gameOver && moveCount < 9) {
       PrintBoard(board);
       int row, col;
